@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FilterInput /> should produce a proper snapshot 1`] = `
+<div>
+  <div
+    class="ui fluid icon left corner labeled input"
+  >
+    <div
+      class="ui label label left corner"
+    >
+      <i
+        aria-hidden="true"
+        class="asterisk icon"
+      />
+    </div>
+    <input
+      type="text"
+      placeholder="Filter..."
+    />
+    <i
+      aria-hidden="true"
+      class="search icon"
+    />
+  </div>
+</div>
+`;

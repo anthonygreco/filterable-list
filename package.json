@@ -1,0 +1,41 @@
+{
+  "name": "filterable-list",
+  "version": "1.0.0",
+  "description": "A Filterable List in React",
+  "author": "anthony.greco@gmail.com",
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1",
+    "semantic-ui": "^2.3.1",
+    "semantic-ui-react": "^0.79.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "react-testing-library": "^1.5.0",
+    "standard": "11.0.1"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "src/data/**",
+      "!src/semantic/**/*.js",
+      "!src/index.js"
+    ]
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "src/semantic/"
+    ]
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "coverage": "react-scripts test --env=jsdom --coverage --watch",
+    "eject": "react-scripts eject",
+    "lint": "standard --global it --global expect --global test --fix"
+  }
+}

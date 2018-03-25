@@ -1,0 +1,9 @@
+.ui.table tr td {
+    padding: 0.55em 0.78571429em;
+}
+
+.ui.table td.no-results {
+    font-weight: bold;
+    text-align: center;
+}
+
